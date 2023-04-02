@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sc0tfree</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      animation: one-way-zoom 45s forwards;
+    }
+
+    @keyframes one-way-zoom {
+      0% {
+        transform: scale(1);
+      }
+      100% {
+        transform: scale(1.4);
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="sc0tfree-banner.jpg" alt="sc0tfree banner">
+</body>
+</html>
